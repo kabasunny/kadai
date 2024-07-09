@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+}
+#page1 {
+    background-image: url('seiza-illust1.jpg');
+}
+
+#page2 {
+    background-image: url('watermark.jpg');
+}
+
+h1 {
+    color: #580097;
+    text-align: left;
+}
+
+div, p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2600ff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #bfbfbf;
+    padding: 10px 0;
+}
+
+.background {
+    background-color: rgb(245, 250, 173);
+    display: block;
+    width: fit-content;
+    max-width: 100%; 
+    border-radius: 4px;
+}
+
+.h1_bc{
+    background-color: rgb(236, 249, 255);
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    border-radius: 8px;
+}
